@@ -54,7 +54,7 @@
 }
 
 .home__content--box:hover {
-  background: rgba(0, 0, 0, 0.85); /* slightly darker */
+  background: rgba(0, 0, 0, 0.85);
   backdrop-filter: blur(9px);
   -webkit-backdrop-filter: blur(9px);
 

@@ -48,7 +48,7 @@
 }
 
 .contact__card:hover {
-  background: rgba(0, 0, 0, 0.85); /* slightly darker */
+  background: rgba(0, 0, 0, 0.85);
   backdrop-filter: blur(9px);
   -webkit-backdrop-filter: blur(9px);
 
@@ -131,5 +131,7 @@
 /* Small phones */
 
 @media (max-width: 480px) {
-  
+  .contact__card {
+    margin-top: 100px;
+  }
 }
