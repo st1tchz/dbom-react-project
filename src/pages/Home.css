@@ -1,22 +1,22 @@
 .home {
   position: relative;
   min-height: 100vh;
+}
+
+.home__bg {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
   overflow: hidden;
+  pointer-events: none;
+  box-sizing: border-box;
 }
 
-.home__img--wrapper {
-    position: absolute;
-    inset: 0;
-    z-index: -1;
-    overflow: hidden;
-}
-
-.home__img {
+.home__bg--img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   object-position: center;
-  opacity: 0.9;
 }
 
 .home__content {
@@ -179,6 +179,9 @@
   .home__para {
     font-size: 22px;
   }
+  .searchbar::placeholder {
+    color: transparent;
+  }
 }
 
 /* Small phones */
@@ -198,8 +201,6 @@
   .searchbar {
     display: flex;
     align-items: center;
-    padding-top: 0.5rem;
-    padding-bottom: 2rem;
   }
   .searchbar::placeholder {
     padding-left: 10px;

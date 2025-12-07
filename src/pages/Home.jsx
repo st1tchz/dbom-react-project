@@ -64,9 +64,10 @@ const Home = () => {
   return (
     <div className="home">
       <Navbar />
-      <div className="home__img--wrapper">
-        <img src="/dbom_background.png" alt="" className="home__img" />
+      <div className="home__bg">
+        <img src="/dbom_background.png" alt="" className="home__bg--img" />
       </div>
+      
       <div className="home__content">
         <div className="home__content--box">
             <h1 className="home__title">
